@@ -1,5 +1,5 @@
 {% set name = "felling" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/felling-{{ version }}.tar.gz
-  sha256: ccff12588ced32cece5753dd30b555751c8c12b6988658ed5a5d7fb818518f1f
+  sha256: 6820561c2020d0ca9799366d606e2db028ded44e3a1b150958c9bb756da438c0
 
 build:
   number: 0
